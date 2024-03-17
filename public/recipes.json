@@ -1,0 +1,56 @@
+[
+    {
+        "image": "https://i.ibb.co/DLLwrz7/f1.jpg",
+        "id": "01",
+        "name": "Best Ever Banana Bread",
+        "description": "A flavorful and aromatic chicken curry.",
+        "ingredients": ["120 ml soy sauce", "200 g basil leaf", "400 g mushroom"],
+        "time": 25,
+        "calories": "360 calories"
+    },
+    {
+        "image": "https://i.ibb.co/rdfxCRZ/f2.jpg",
+        "id": "02",
+        "name": "Cheeseburger Soup",
+        "description": "Italian spaghetti with a rich sauce.",
+        "ingredients": ["400 g spaghetti", "200 g tomatoes", "100 g onions"],
+        "time": 35,
+        "calories": "180 calories"
+    },
+    {
+        "image": "https://i.ibb.co/kyDXLJ1/f3.jpg",
+        "id": "03",
+        "name": "Amish Breakfast Casserole",
+        "description": "Healthy and comforting vegetable soup.",
+        "ingredients": [ "1 liter vegetable broth", "100 g onions", "50 g garlic"],
+        "time": 20,
+        "calories": "220 calories"
+    },
+    {
+        "image": "https://i.ibb.co/6YXxzR5/f4.jpg",
+        "id": "04",
+        "name": "Pumpkin Spice ",
+        "description": "Fluffy pancakes filled with juicy blueberries.",
+        "ingredients": ["2 eggs", "150 ml milk", "100 g blueberries"],
+        "time": 48,
+        "calories": "500 calories"
+    },
+    {
+        "image": "https://i.ibb.co/J7p0g19/f5.jpg",
+        "id": "05",
+        "name": "Chicken Potpie",
+        "description": "Refreshing salad with creamy avocados and crisp vegetables.",
+        "ingredients": ["200g Chicken", "150 g mixed greens", "1 cucumber", "100 g cherry tomatoes"],
+        "time": 50,
+        "calories": "800 calories"
+    },
+    {
+        "image": "https://i.ibb.co/MN4mQYB/f6.jpg",
+        "id": "06",
+        "name": "Chicken Fajitas",
+        "description": "Tangy and sweet lemonade perfect for a hot day.",
+        "ingredients": ["400g Chicken", "100 g sugar", " water", "Ice cubes"],
+        "time": 55,
+        "calories": "720 calories"
+    }
+]
