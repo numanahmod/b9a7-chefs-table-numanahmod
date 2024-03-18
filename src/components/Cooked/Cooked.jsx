@@ -1,8 +1,8 @@
 import PropTypes from 'prop-types';
 import AddCooked from '../AddCooked/AddCooked';
 
-const Cooked = ({cooked,handleAddCooked}) => {
-    const {name, time, calories} = cooked;
+const Cooked = ({cooked}) => {
+    
     return (
         <div>
             <div className='w-[500px] want m-2 mt-40'> <h2 className='text-center text-xl font-bold'> Want to cook: {cooked.length} </h2> 
@@ -22,7 +22,7 @@ const Cooked = ({cooked,handleAddCooked}) => {
 
                 
 
-                
+            
 
                 <h3 className='text-center text-xl font-bold'> Current Cooking: </h3>
                 <hr className='w-full' /> 

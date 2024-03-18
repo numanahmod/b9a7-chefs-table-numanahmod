@@ -1,18 +1,28 @@
-import PropTypes from 'prop-types';
+import PropTypes, { element } from 'prop-types';
 import './AddCooked.css'
+import { useState } from 'react';
 
 const AddCooked = ({addCooked}) => {
     
-   const {name, time, calories,} = addCooked;
+    
+   const {name, time, calories,id} = addCooked;
+
+   const handlePreparing = (id) => {
+    const newArray = AddCooked.filter(item => item.id != id );
+    console.log(newArray)
+   }
+   
     return (
-        <div className='flex grid-cols-4 justify-around ml-8 mb-3 ' >
+       
+       
+        <table className='flex grid-cols-4 justify-around ml-8 mb-3 bg-slate-300 mr-2 rounded-md' >
             
-            <p> {} </p>
-            <h3 className='w-[70px] ml-5'>{name}</h3>
-            <h3 className='w-[70px] ml-10' > {time } min  </h3> 
-            <h3 className='w-[70px] -mr-10'> {calories} </h3>
-            <button className='ppr-btn '> Preparing </button>
-        </div>
+          
+            <tr className='w-[70px] ml-5'>{name}</tr>
+            <tr className='w-[70px] ml-10' > {time } min  </tr> 
+            <tr className='w-[70px] -mr-10'> {calories} </tr>
+            <button onClick={() => handlePreparing(id) } className='ppr-btn mt-1'> Preparing </button>
+        </table>
     );
 };
 AddCooked.propTypes = {

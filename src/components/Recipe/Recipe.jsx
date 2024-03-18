@@ -2,6 +2,7 @@ import PropTypes from 'prop-types';
 import './Recipe.css'
 import { FcClock } from "react-icons/fc";
 import { FaFire } from "react-icons/fa";
+import { ToastContainer } from 'react-toastify';
 
 const Recipe = ({recipe, handleAddCooked }) => {
     const {name, image, description, ingredients, time, calories} = recipe;
@@ -26,6 +27,7 @@ const Recipe = ({recipe, handleAddCooked }) => {
                 <div> <p className='inline-flex gap-2' > <FaFire className='mt-1'></FaFire> {calories} </p></div>
             </div> 
             <button onClick={() => handleAddCooked(recipe)} className='want-cook-btn font-bold'>Want to Cook</button>
+            <ToastContainer/>
         </div>
         <div>
             

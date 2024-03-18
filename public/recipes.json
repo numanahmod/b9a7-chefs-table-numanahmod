@@ -2,7 +2,7 @@
     {
         "image": "https://i.ibb.co/DLLwrz7/f1.jpg",
         "id": "01",
-        "name": "Best Ever Banana Bread",
+        "name": "Banana Bread",
         "description": "A flavorful and aromatic chicken curry.",
         "ingredients": ["120 ml soy sauce", "200 g basil leaf", "400 g mushroom"],
         "time": 25,
@@ -21,7 +21,7 @@
         "image": "https://i.ibb.co/kyDXLJ1/f3.jpg",
         "id": "03",
         "name": "Amish Breakfast Casserole",
-        "description": "Healthy and comforting vegetable soup.",
+        "description": "Healthy vegetable soup.",
         "ingredients": [ "1 liter vegetable broth", "100 g onions", "50 g garlic"],
         "time": 20,
         "calories": "220 calories"
@@ -30,7 +30,7 @@
         "image": "https://i.ibb.co/6YXxzR5/f4.jpg",
         "id": "04",
         "name": "Pumpkin Spice ",
-        "description": "Fluffy pancakes filled with juicy blueberries.",
+        "description": "Fluffy pancakes filled.",
         "ingredients": ["2 eggs", "150 ml milk", "100 g blueberries"],
         "time": 48,
         "calories": "500 calories"
